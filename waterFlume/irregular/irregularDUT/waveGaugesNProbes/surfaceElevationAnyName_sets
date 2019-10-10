@@ -1,0 +1,1803 @@
+sets
+(
+    gauge_0
+    {
+        type         face;
+        axis         z;
+        start        (0.5 -0.05 0);
+        end          (0.5 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_1
+    {
+        type         face;
+        axis         z;
+        start        (0.615578 -0.05 0);
+        end          (0.615578 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_2
+    {
+        type         face;
+        axis         z;
+        start        (0.731156 -0.05 0);
+        end          (0.731156 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_3
+    {
+        type         face;
+        axis         z;
+        start        (0.846734 -0.05 0);
+        end          (0.846734 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_4
+    {
+        type         face;
+        axis         z;
+        start        (0.962312 -0.05 0);
+        end          (0.962312 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_5
+    {
+        type         face;
+        axis         z;
+        start        (1.07789 -0.05 0);
+        end          (1.07789 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_6
+    {
+        type         face;
+        axis         z;
+        start        (1.19347 -0.05 0);
+        end          (1.19347 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_7
+    {
+        type         face;
+        axis         z;
+        start        (1.30905 -0.05 0);
+        end          (1.30905 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_8
+    {
+        type         face;
+        axis         z;
+        start        (1.42462 -0.05 0);
+        end          (1.42462 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_9
+    {
+        type         face;
+        axis         z;
+        start        (1.5402 -0.05 0);
+        end          (1.5402 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_10
+    {
+        type         face;
+        axis         z;
+        start        (1.65578 -0.05 0);
+        end          (1.65578 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_11
+    {
+        type         face;
+        axis         z;
+        start        (1.77136 -0.05 0);
+        end          (1.77136 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_12
+    {
+        type         face;
+        axis         z;
+        start        (1.88693 -0.05 0);
+        end          (1.88693 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_13
+    {
+        type         face;
+        axis         z;
+        start        (2.00251 -0.05 0);
+        end          (2.00251 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_14
+    {
+        type         face;
+        axis         z;
+        start        (2.11809 -0.05 0);
+        end          (2.11809 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_15
+    {
+        type         face;
+        axis         z;
+        start        (2.23367 -0.05 0);
+        end          (2.23367 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_16
+    {
+        type         face;
+        axis         z;
+        start        (2.34925 -0.05 0);
+        end          (2.34925 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_17
+    {
+        type         face;
+        axis         z;
+        start        (2.46482 -0.05 0);
+        end          (2.46482 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_18
+    {
+        type         face;
+        axis         z;
+        start        (2.5804 -0.05 0);
+        end          (2.5804 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_19
+    {
+        type         face;
+        axis         z;
+        start        (2.69598 -0.05 0);
+        end          (2.69598 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_20
+    {
+        type         face;
+        axis         z;
+        start        (2.81156 -0.05 0);
+        end          (2.81156 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_21
+    {
+        type         face;
+        axis         z;
+        start        (2.92714 -0.05 0);
+        end          (2.92714 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_22
+    {
+        type         face;
+        axis         z;
+        start        (3.04271 -0.05 0);
+        end          (3.04271 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_23
+    {
+        type         face;
+        axis         z;
+        start        (3.15829 -0.05 0);
+        end          (3.15829 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_24
+    {
+        type         face;
+        axis         z;
+        start        (3.27387 -0.05 0);
+        end          (3.27387 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_25
+    {
+        type         face;
+        axis         z;
+        start        (3.38945 -0.05 0);
+        end          (3.38945 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_26
+    {
+        type         face;
+        axis         z;
+        start        (3.50503 -0.05 0);
+        end          (3.50503 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_27
+    {
+        type         face;
+        axis         z;
+        start        (3.6206 -0.05 0);
+        end          (3.6206 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_28
+    {
+        type         face;
+        axis         z;
+        start        (3.73618 -0.05 0);
+        end          (3.73618 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_29
+    {
+        type         face;
+        axis         z;
+        start        (3.85176 -0.05 0);
+        end          (3.85176 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_30
+    {
+        type         face;
+        axis         z;
+        start        (3.96734 -0.05 0);
+        end          (3.96734 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_31
+    {
+        type         face;
+        axis         z;
+        start        (4.08291 -0.05 0);
+        end          (4.08291 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_32
+    {
+        type         face;
+        axis         z;
+        start        (4.19849 -0.05 0);
+        end          (4.19849 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_33
+    {
+        type         face;
+        axis         z;
+        start        (4.31407 -0.05 0);
+        end          (4.31407 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_34
+    {
+        type         face;
+        axis         z;
+        start        (4.42965 -0.05 0);
+        end          (4.42965 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_35
+    {
+        type         face;
+        axis         z;
+        start        (4.54523 -0.05 0);
+        end          (4.54523 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_36
+    {
+        type         face;
+        axis         z;
+        start        (4.6608 -0.05 0);
+        end          (4.6608 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_37
+    {
+        type         face;
+        axis         z;
+        start        (4.77638 -0.05 0);
+        end          (4.77638 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_38
+    {
+        type         face;
+        axis         z;
+        start        (4.89196 -0.05 0);
+        end          (4.89196 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_39
+    {
+        type         face;
+        axis         z;
+        start        (5.00754 -0.05 0);
+        end          (5.00754 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_40
+    {
+        type         face;
+        axis         z;
+        start        (5.12312 -0.05 0);
+        end          (5.12312 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_41
+    {
+        type         face;
+        axis         z;
+        start        (5.23869 -0.05 0);
+        end          (5.23869 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_42
+    {
+        type         face;
+        axis         z;
+        start        (5.35427 -0.05 0);
+        end          (5.35427 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_43
+    {
+        type         face;
+        axis         z;
+        start        (5.46985 -0.05 0);
+        end          (5.46985 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_44
+    {
+        type         face;
+        axis         z;
+        start        (5.58543 -0.05 0);
+        end          (5.58543 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_45
+    {
+        type         face;
+        axis         z;
+        start        (5.70101 -0.05 0);
+        end          (5.70101 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_46
+    {
+        type         face;
+        axis         z;
+        start        (5.81658 -0.05 0);
+        end          (5.81658 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_47
+    {
+        type         face;
+        axis         z;
+        start        (5.93216 -0.05 0);
+        end          (5.93216 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_48
+    {
+        type         face;
+        axis         z;
+        start        (6.04774 -0.05 0);
+        end          (6.04774 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_49
+    {
+        type         face;
+        axis         z;
+        start        (6.16332 -0.05 0);
+        end          (6.16332 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_50
+    {
+        type         face;
+        axis         z;
+        start        (6.27889 -0.05 0);
+        end          (6.27889 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_51
+    {
+        type         face;
+        axis         z;
+        start        (6.39447 -0.05 0);
+        end          (6.39447 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_52
+    {
+        type         face;
+        axis         z;
+        start        (6.51005 -0.05 0);
+        end          (6.51005 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_53
+    {
+        type         face;
+        axis         z;
+        start        (6.62563 -0.05 0);
+        end          (6.62563 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_54
+    {
+        type         face;
+        axis         z;
+        start        (6.74121 -0.05 0);
+        end          (6.74121 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_55
+    {
+        type         face;
+        axis         z;
+        start        (6.85678 -0.05 0);
+        end          (6.85678 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_56
+    {
+        type         face;
+        axis         z;
+        start        (6.97236 -0.05 0);
+        end          (6.97236 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_57
+    {
+        type         face;
+        axis         z;
+        start        (7.08794 -0.05 0);
+        end          (7.08794 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_58
+    {
+        type         face;
+        axis         z;
+        start        (7.20352 -0.05 0);
+        end          (7.20352 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_59
+    {
+        type         face;
+        axis         z;
+        start        (7.3191 -0.05 0);
+        end          (7.3191 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_60
+    {
+        type         face;
+        axis         z;
+        start        (7.43467 -0.05 0);
+        end          (7.43467 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_61
+    {
+        type         face;
+        axis         z;
+        start        (7.55025 -0.05 0);
+        end          (7.55025 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_62
+    {
+        type         face;
+        axis         z;
+        start        (7.66583 -0.05 0);
+        end          (7.66583 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_63
+    {
+        type         face;
+        axis         z;
+        start        (7.78141 -0.05 0);
+        end          (7.78141 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_64
+    {
+        type         face;
+        axis         z;
+        start        (7.89698 -0.05 0);
+        end          (7.89698 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_65
+    {
+        type         face;
+        axis         z;
+        start        (8.01256 -0.05 0);
+        end          (8.01256 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_66
+    {
+        type         face;
+        axis         z;
+        start        (8.12814 -0.05 0);
+        end          (8.12814 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_67
+    {
+        type         face;
+        axis         z;
+        start        (8.24372 -0.05 0);
+        end          (8.24372 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_68
+    {
+        type         face;
+        axis         z;
+        start        (8.3593 -0.05 0);
+        end          (8.3593 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_69
+    {
+        type         face;
+        axis         z;
+        start        (8.47487 -0.05 0);
+        end          (8.47487 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_70
+    {
+        type         face;
+        axis         z;
+        start        (8.59045 -0.05 0);
+        end          (8.59045 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_71
+    {
+        type         face;
+        axis         z;
+        start        (8.70603 -0.05 0);
+        end          (8.70603 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_72
+    {
+        type         face;
+        axis         z;
+        start        (8.82161 -0.05 0);
+        end          (8.82161 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_73
+    {
+        type         face;
+        axis         z;
+        start        (8.93719 -0.05 0);
+        end          (8.93719 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_74
+    {
+        type         face;
+        axis         z;
+        start        (9.05276 -0.05 0);
+        end          (9.05276 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_75
+    {
+        type         face;
+        axis         z;
+        start        (9.16834 -0.05 0);
+        end          (9.16834 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_76
+    {
+        type         face;
+        axis         z;
+        start        (9.28392 -0.05 0);
+        end          (9.28392 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_77
+    {
+        type         face;
+        axis         z;
+        start        (9.3995 -0.05 0);
+        end          (9.3995 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_78
+    {
+        type         face;
+        axis         z;
+        start        (9.51508 -0.05 0);
+        end          (9.51508 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_79
+    {
+        type         face;
+        axis         z;
+        start        (9.63065 -0.05 0);
+        end          (9.63065 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_80
+    {
+        type         face;
+        axis         z;
+        start        (9.74623 -0.05 0);
+        end          (9.74623 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_81
+    {
+        type         face;
+        axis         z;
+        start        (9.86181 -0.05 0);
+        end          (9.86181 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_82
+    {
+        type         face;
+        axis         z;
+        start        (9.97739 -0.05 0);
+        end          (9.97739 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_83
+    {
+        type         face;
+        axis         z;
+        start        (10.093 -0.05 0);
+        end          (10.093 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_84
+    {
+        type         face;
+        axis         z;
+        start        (10.2085 -0.05 0);
+        end          (10.2085 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_85
+    {
+        type         face;
+        axis         z;
+        start        (10.3241 -0.05 0);
+        end          (10.3241 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_86
+    {
+        type         face;
+        axis         z;
+        start        (10.4397 -0.05 0);
+        end          (10.4397 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_87
+    {
+        type         face;
+        axis         z;
+        start        (10.5553 -0.05 0);
+        end          (10.5553 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_88
+    {
+        type         face;
+        axis         z;
+        start        (10.6709 -0.05 0);
+        end          (10.6709 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_89
+    {
+        type         face;
+        axis         z;
+        start        (10.7864 -0.05 0);
+        end          (10.7864 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_90
+    {
+        type         face;
+        axis         z;
+        start        (10.902 -0.05 0);
+        end          (10.902 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_91
+    {
+        type         face;
+        axis         z;
+        start        (11.0176 -0.05 0);
+        end          (11.0176 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_92
+    {
+        type         face;
+        axis         z;
+        start        (11.1332 -0.05 0);
+        end          (11.1332 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_93
+    {
+        type         face;
+        axis         z;
+        start        (11.2487 -0.05 0);
+        end          (11.2487 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_94
+    {
+        type         face;
+        axis         z;
+        start        (11.3643 -0.05 0);
+        end          (11.3643 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_95
+    {
+        type         face;
+        axis         z;
+        start        (11.4799 -0.05 0);
+        end          (11.4799 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_96
+    {
+        type         face;
+        axis         z;
+        start        (11.5955 -0.05 0);
+        end          (11.5955 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_97
+    {
+        type         face;
+        axis         z;
+        start        (11.7111 -0.05 0);
+        end          (11.7111 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_98
+    {
+        type         face;
+        axis         z;
+        start        (11.8266 -0.05 0);
+        end          (11.8266 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_99
+    {
+        type         face;
+        axis         z;
+        start        (11.9422 -0.05 0);
+        end          (11.9422 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_100
+    {
+        type         face;
+        axis         z;
+        start        (12.0578 -0.05 0);
+        end          (12.0578 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_101
+    {
+        type         face;
+        axis         z;
+        start        (12.1734 -0.05 0);
+        end          (12.1734 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_102
+    {
+        type         face;
+        axis         z;
+        start        (12.2889 -0.05 0);
+        end          (12.2889 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_103
+    {
+        type         face;
+        axis         z;
+        start        (12.4045 -0.05 0);
+        end          (12.4045 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_104
+    {
+        type         face;
+        axis         z;
+        start        (12.5201 -0.05 0);
+        end          (12.5201 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_105
+    {
+        type         face;
+        axis         z;
+        start        (12.6357 -0.05 0);
+        end          (12.6357 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_106
+    {
+        type         face;
+        axis         z;
+        start        (12.7513 -0.05 0);
+        end          (12.7513 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_107
+    {
+        type         face;
+        axis         z;
+        start        (12.8668 -0.05 0);
+        end          (12.8668 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_108
+    {
+        type         face;
+        axis         z;
+        start        (12.9824 -0.05 0);
+        end          (12.9824 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_109
+    {
+        type         face;
+        axis         z;
+        start        (13.098 -0.05 0);
+        end          (13.098 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_110
+    {
+        type         face;
+        axis         z;
+        start        (13.2136 -0.05 0);
+        end          (13.2136 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_111
+    {
+        type         face;
+        axis         z;
+        start        (13.3291 -0.05 0);
+        end          (13.3291 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_112
+    {
+        type         face;
+        axis         z;
+        start        (13.4447 -0.05 0);
+        end          (13.4447 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_113
+    {
+        type         face;
+        axis         z;
+        start        (13.5603 -0.05 0);
+        end          (13.5603 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_114
+    {
+        type         face;
+        axis         z;
+        start        (13.6759 -0.05 0);
+        end          (13.6759 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_115
+    {
+        type         face;
+        axis         z;
+        start        (13.7915 -0.05 0);
+        end          (13.7915 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_116
+    {
+        type         face;
+        axis         z;
+        start        (13.907 -0.05 0);
+        end          (13.907 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_117
+    {
+        type         face;
+        axis         z;
+        start        (14.0226 -0.05 0);
+        end          (14.0226 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_118
+    {
+        type         face;
+        axis         z;
+        start        (14.1382 -0.05 0);
+        end          (14.1382 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_119
+    {
+        type         face;
+        axis         z;
+        start        (14.2538 -0.05 0);
+        end          (14.2538 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_120
+    {
+        type         face;
+        axis         z;
+        start        (14.3693 -0.05 0);
+        end          (14.3693 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_121
+    {
+        type         face;
+        axis         z;
+        start        (14.4849 -0.05 0);
+        end          (14.4849 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_122
+    {
+        type         face;
+        axis         z;
+        start        (14.6005 -0.05 0);
+        end          (14.6005 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_123
+    {
+        type         face;
+        axis         z;
+        start        (14.7161 -0.05 0);
+        end          (14.7161 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_124
+    {
+        type         face;
+        axis         z;
+        start        (14.8317 -0.05 0);
+        end          (14.8317 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_125
+    {
+        type         face;
+        axis         z;
+        start        (14.9472 -0.05 0);
+        end          (14.9472 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_126
+    {
+        type         face;
+        axis         z;
+        start        (15.0628 -0.05 0);
+        end          (15.0628 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_127
+    {
+        type         face;
+        axis         z;
+        start        (15.1784 -0.05 0);
+        end          (15.1784 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_128
+    {
+        type         face;
+        axis         z;
+        start        (15.294 -0.05 0);
+        end          (15.294 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_129
+    {
+        type         face;
+        axis         z;
+        start        (15.4095 -0.05 0);
+        end          (15.4095 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_130
+    {
+        type         face;
+        axis         z;
+        start        (15.5251 -0.05 0);
+        end          (15.5251 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_131
+    {
+        type         face;
+        axis         z;
+        start        (15.6407 -0.05 0);
+        end          (15.6407 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_132
+    {
+        type         face;
+        axis         z;
+        start        (15.7563 -0.05 0);
+        end          (15.7563 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_133
+    {
+        type         face;
+        axis         z;
+        start        (15.8719 -0.05 0);
+        end          (15.8719 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_134
+    {
+        type         face;
+        axis         z;
+        start        (15.9874 -0.05 0);
+        end          (15.9874 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_135
+    {
+        type         face;
+        axis         z;
+        start        (16.103 -0.05 0);
+        end          (16.103 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_136
+    {
+        type         face;
+        axis         z;
+        start        (16.2186 -0.05 0);
+        end          (16.2186 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_137
+    {
+        type         face;
+        axis         z;
+        start        (16.3342 -0.05 0);
+        end          (16.3342 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_138
+    {
+        type         face;
+        axis         z;
+        start        (16.4497 -0.05 0);
+        end          (16.4497 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_139
+    {
+        type         face;
+        axis         z;
+        start        (16.5653 -0.05 0);
+        end          (16.5653 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_140
+    {
+        type         face;
+        axis         z;
+        start        (16.6809 -0.05 0);
+        end          (16.6809 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_141
+    {
+        type         face;
+        axis         z;
+        start        (16.7965 -0.05 0);
+        end          (16.7965 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_142
+    {
+        type         face;
+        axis         z;
+        start        (16.9121 -0.05 0);
+        end          (16.9121 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_143
+    {
+        type         face;
+        axis         z;
+        start        (17.0276 -0.05 0);
+        end          (17.0276 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_144
+    {
+        type         face;
+        axis         z;
+        start        (17.1432 -0.05 0);
+        end          (17.1432 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_145
+    {
+        type         face;
+        axis         z;
+        start        (17.2588 -0.05 0);
+        end          (17.2588 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_146
+    {
+        type         face;
+        axis         z;
+        start        (17.3744 -0.05 0);
+        end          (17.3744 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_147
+    {
+        type         face;
+        axis         z;
+        start        (17.4899 -0.05 0);
+        end          (17.4899 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_148
+    {
+        type         face;
+        axis         z;
+        start        (17.6055 -0.05 0);
+        end          (17.6055 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_149
+    {
+        type         face;
+        axis         z;
+        start        (17.7211 -0.05 0);
+        end          (17.7211 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_150
+    {
+        type         face;
+        axis         z;
+        start        (17.8367 -0.05 0);
+        end          (17.8367 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_151
+    {
+        type         face;
+        axis         z;
+        start        (17.9523 -0.05 0);
+        end          (17.9523 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_152
+    {
+        type         face;
+        axis         z;
+        start        (18.0678 -0.05 0);
+        end          (18.0678 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_153
+    {
+        type         face;
+        axis         z;
+        start        (18.1834 -0.05 0);
+        end          (18.1834 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_154
+    {
+        type         face;
+        axis         z;
+        start        (18.299 -0.05 0);
+        end          (18.299 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_155
+    {
+        type         face;
+        axis         z;
+        start        (18.4146 -0.05 0);
+        end          (18.4146 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_156
+    {
+        type         face;
+        axis         z;
+        start        (18.5302 -0.05 0);
+        end          (18.5302 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_157
+    {
+        type         face;
+        axis         z;
+        start        (18.6457 -0.05 0);
+        end          (18.6457 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_158
+    {
+        type         face;
+        axis         z;
+        start        (18.7613 -0.05 0);
+        end          (18.7613 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_159
+    {
+        type         face;
+        axis         z;
+        start        (18.8769 -0.05 0);
+        end          (18.8769 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_160
+    {
+        type         face;
+        axis         z;
+        start        (18.9925 -0.05 0);
+        end          (18.9925 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_161
+    {
+        type         face;
+        axis         z;
+        start        (19.108 -0.05 0);
+        end          (19.108 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_162
+    {
+        type         face;
+        axis         z;
+        start        (19.2236 -0.05 0);
+        end          (19.2236 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_163
+    {
+        type         face;
+        axis         z;
+        start        (19.3392 -0.05 0);
+        end          (19.3392 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_164
+    {
+        type         face;
+        axis         z;
+        start        (19.4548 -0.05 0);
+        end          (19.4548 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_165
+    {
+        type         face;
+        axis         z;
+        start        (19.5704 -0.05 0);
+        end          (19.5704 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_166
+    {
+        type         face;
+        axis         z;
+        start        (19.6859 -0.05 0);
+        end          (19.6859 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_167
+    {
+        type         face;
+        axis         z;
+        start        (19.8015 -0.05 0);
+        end          (19.8015 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_168
+    {
+        type         face;
+        axis         z;
+        start        (19.9171 -0.05 0);
+        end          (19.9171 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_169
+    {
+        type         face;
+        axis         z;
+        start        (20.0327 -0.05 0);
+        end          (20.0327 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_170
+    {
+        type         face;
+        axis         z;
+        start        (20.1482 -0.05 0);
+        end          (20.1482 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_171
+    {
+        type         face;
+        axis         z;
+        start        (20.2638 -0.05 0);
+        end          (20.2638 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_172
+    {
+        type         face;
+        axis         z;
+        start        (20.3794 -0.05 0);
+        end          (20.3794 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_173
+    {
+        type         face;
+        axis         z;
+        start        (20.495 -0.05 0);
+        end          (20.495 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_174
+    {
+        type         face;
+        axis         z;
+        start        (20.6106 -0.05 0);
+        end          (20.6106 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_175
+    {
+        type         face;
+        axis         z;
+        start        (20.7261 -0.05 0);
+        end          (20.7261 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_176
+    {
+        type         face;
+        axis         z;
+        start        (20.8417 -0.05 0);
+        end          (20.8417 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_177
+    {
+        type         face;
+        axis         z;
+        start        (20.9573 -0.05 0);
+        end          (20.9573 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_178
+    {
+        type         face;
+        axis         z;
+        start        (21.0729 -0.05 0);
+        end          (21.0729 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_179
+    {
+        type         face;
+        axis         z;
+        start        (21.1884 -0.05 0);
+        end          (21.1884 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_180
+    {
+        type         face;
+        axis         z;
+        start        (21.304 -0.05 0);
+        end          (21.304 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_181
+    {
+        type         face;
+        axis         z;
+        start        (21.4196 -0.05 0);
+        end          (21.4196 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_182
+    {
+        type         face;
+        axis         z;
+        start        (21.5352 -0.05 0);
+        end          (21.5352 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_183
+    {
+        type         face;
+        axis         z;
+        start        (21.6508 -0.05 0);
+        end          (21.6508 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_184
+    {
+        type         face;
+        axis         z;
+        start        (21.7663 -0.05 0);
+        end          (21.7663 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_185
+    {
+        type         face;
+        axis         z;
+        start        (21.8819 -0.05 0);
+        end          (21.8819 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_186
+    {
+        type         face;
+        axis         z;
+        start        (21.9975 -0.05 0);
+        end          (21.9975 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_187
+    {
+        type         face;
+        axis         z;
+        start        (22.1131 -0.05 0);
+        end          (22.1131 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_188
+    {
+        type         face;
+        axis         z;
+        start        (22.2286 -0.05 0);
+        end          (22.2286 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_189
+    {
+        type         face;
+        axis         z;
+        start        (22.3442 -0.05 0);
+        end          (22.3442 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_190
+    {
+        type         face;
+        axis         z;
+        start        (22.4598 -0.05 0);
+        end          (22.4598 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_191
+    {
+        type         face;
+        axis         z;
+        start        (22.5754 -0.05 0);
+        end          (22.5754 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_192
+    {
+        type         face;
+        axis         z;
+        start        (22.691 -0.05 0);
+        end          (22.691 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_193
+    {
+        type         face;
+        axis         z;
+        start        (22.8065 -0.05 0);
+        end          (22.8065 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_194
+    {
+        type         face;
+        axis         z;
+        start        (22.9221 -0.05 0);
+        end          (22.9221 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_195
+    {
+        type         face;
+        axis         z;
+        start        (23.0377 -0.05 0);
+        end          (23.0377 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_196
+    {
+        type         face;
+        axis         z;
+        start        (23.1533 -0.05 0);
+        end          (23.1533 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_197
+    {
+        type         face;
+        axis         z;
+        start        (23.2688 -0.05 0);
+        end          (23.2688 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_198
+    {
+        type         face;
+        axis         z;
+        start        (23.3844 -0.05 0);
+        end          (23.3844 0.4 0);
+        nPoints      100;
+    }
+
+    gauge_199
+    {
+        type         face;
+        axis         z;
+        start        (23.5 -0.05 0);
+        end          (23.5 0.4 0);
+        nPoints      100;
+    }
+
+);

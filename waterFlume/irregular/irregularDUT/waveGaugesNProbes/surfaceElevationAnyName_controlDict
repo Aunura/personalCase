@@ -1,0 +1,15 @@
+    surfaceElevationAnyName
+    {
+        type               surfaceElevation;
+        functionObjectLibs ( "libwaves2Foam.so" );
+
+        writeControl       adjustableRunTime;
+        writeInterval      0.025;
+
+        setFormat          raw;
+        interpolationScheme cellPointFace;
+        fields (alpha.water);
+
+        #includeIfPresent "../waveGaugesNProbes/surfaceElevationAnyName_sets";
+
+    }

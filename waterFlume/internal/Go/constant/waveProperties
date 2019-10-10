@@ -1,0 +1,60 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1706                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version	2.0;
+    format	ascii;
+    class	dictionary;
+    object	waveProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+seaLevel            -0.4;
+
+seaLevelAsReference false;
+
+relaxationNames     ( outlet);
+
+initializationName  inlet;
+
+inletCoeffs
+{
+    waveType               internalSolitary;
+    upperFluidThickness    0.4;
+    lowerFluidThickness    1.6;
+    upperFluidDensity      1000.0;
+    lowerFluidDensity      1025.0;
+    x0                     (0.0 0.0 0.0);
+    waveAmplitude          -0.1;
+    direction              (1.0 0.0 0.0);
+
+}
+
+outletCoeffs
+{
+
+    waveType    potentialCurrent;
+    U           (0 0 0);
+    Tsoft       2;
+
+    relaxationZone
+    {
+        relaxationScheme Spatial;
+        relaxationShape  Rectangular;
+        beachType        Empty;
+    
+        relaxType   OUTLET;
+        startX      (8.0  -0. 0.);
+        endX        (10.0  0.1  0.);
+        orientation      (1.0 0.0 0.0);
+    }
+}
+
+
+
+// ************************************************************************* //
