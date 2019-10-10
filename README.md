@@ -3,7 +3,7 @@
 The case calculated by AnatoliaFoam
 
 ※WaterFlume
-
+![image](https://github.com/Aunura/personalCase/blob/master/Picture/waterFlume2D.png)
 Including surface water, i.e, regular,solitary and irregular wave. Besides, the internal wave Models have been developing.
 
 ※Mooring Box
