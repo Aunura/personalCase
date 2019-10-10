@@ -1,0 +1,190 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1812                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      dynamicMeshDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+motionSolverLibs    ("libsixDoFRigidBodyMotion.so");
+
+dynamicFvMesh       dynamicOversetFvMesh;
+
+dynamicOversetFvMeshCoeffs
+{
+}
+
+solver          sixDoFRigidBodyMotion;
+
+sixDoFRigidBodyMotionCoeffs
+{
+
+    patches         (floatingObject);
+    innerDistance   0.2;
+    outerDistance   1.0;
+
+    centreOfMass    (0.3 0.3 0.25);
+
+    // Cuboid dimensions
+    Lx              0.2;
+    Ly              0.2;
+    Lz              0.4;
+
+    // Density of the solid
+    rhoSolid        700;
+
+    // Cuboid mass
+    mass            #calc "$rhoSolid*$Lx*$Ly*$Lz";
+
+    // Newmark parameter
+    beta  0.25;
+    gamma 0.5;
+
+    // Water Density
+    waterDensity 1000;
+
+    // Cuboid moment of inertia about the centre of mass
+    momentOfInertia #codeStream
+    {
+        codeInclude
+        #{
+            #include "diagTensor.H"
+        #};
+
+        code
+        #{
+            scalar sqrLx = sqr($Lx);
+            scalar sqrLy = sqr($Ly);
+            scalar sqrLz = sqr($Lz);
+            os  <<
+                $mass
+               *diagTensor(sqrLy + sqrLz, sqrLx + sqrLz, sqrLx + sqrLy)/12.0;
+        #};
+    };
+
+    report          on;
+    accelerationRelaxation 0.6;
+  //  accelerationDamping    0.9;
+
+    solver
+    {
+        type Newmark;
+    }
+
+     restraints
+    {
+	 TestMooringW1
+         {
+          sixDoFRigidBodyMotionRestraint       LMMW;
+	  anchor                               (-9.8 -9.8 -10.05);
+          fairlead                             (0.2 0.2 0.05);
+	  relTol                               1e-8;
+	  seabedReaction                       false;
+	  
+		sections
+		{
+			section1
+			{
+                             nSegment            20;
+                              restLength         17.6;
+                             unitWeightWater     0.2;
+                             unitMass            0.02;
+                             diameter            0.005;
+                             YoungsModulus   	 1e8;
+                             CaT                 0.;
+                             CaN                 1.;
+                             CdT                 0.;
+                             CdN                 1.;
+                        }
+		}
+	 }
+
+	 TestMooringW2
+         {
+          sixDoFRigidBodyMotionRestraint       LMMW;
+	  anchor                               (-9.8 10.4 -10.05);
+          fairlead                             (0.2 0.4 0.05);
+	  relTol                               1e-8;
+	  seabedReaction                       false;
+	  
+		sections
+		{
+			section1
+			{
+                             nSegment            20;
+                             restLength          17.6;
+                             unitWeightWater     0.2;
+                             unitMass            0.02;
+                             diameter            0.005;
+                             YoungsModulus   	 1e8;
+                             CaT                 0.;
+                             CaN                 1.;
+                             CdT                 0.;
+                             CdN                 1.;
+                        }
+		}
+	 }
+
+	 TestMooringW3
+         {
+          sixDoFRigidBodyMotionRestraint       LMMW;
+	  anchor                               (10.4 10.4 -10.05);
+          fairlead                             (0.4 0.4 0.05);
+	  relTol                               1e-8;
+	  seabedReaction                       false;
+	  
+		sections
+		{
+			section1
+			{
+                             nSegment            20;
+                             restLength          17.6;
+                             unitWeightWater     0.2;
+                             unitMass            0.02;
+                             diameter            0.005;
+                             YoungsModulus   	 1e8;
+                             CaT                 0.;
+                             CaN                 1.;
+                             CdT                 0.;
+                             CdN                 1.;
+                        }
+		}
+	 }
+
+	 TestMooringW4
+         {
+          sixDoFRigidBodyMotionRestraint       LMMW;
+	  anchor                               (10.4 -9.8 -10.05);
+          fairlead                             (0.4 0.2 0.05);
+	  relTol                               1e-8;
+	  seabedReaction                       false;
+	  
+		sections
+		{
+			section1
+			{
+                             nSegment            20;
+                             restLength          17.6;
+                             unitWeightWater     0.2;
+                             unitMass            0.02;
+                             diameter            0.005;
+                             YoungsModulus   	 1e8;
+                             CaT                 0.;
+                             CaN                 1.;
+                             CdT                 0.;
+                             CdN                 1.;
+                        }
+		}
+	 }
+    }
+}
+
+// ************************************************************************* //

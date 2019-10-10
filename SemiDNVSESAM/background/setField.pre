@@ -1,0 +1,10 @@
+#!/bin/sh
+rm -rf 0
+cp -r 0.org 0
+rm system/topoSetDict
+cp system/topoSetDict.zone system/topoSetDict
+topoSet
+setFields
+setWaveField
+relaxationZoneLayout
+#------------------------------------------------------------------------------

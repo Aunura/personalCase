@@ -1,0 +1,15 @@
+#!/bin/sh
+
+rm -rf processor*
+rm -rf 0
+rm checkMesh.log
+cp -r 0.org 0
+setWaveField
+relaxationZoneLayout
+topoSet
+setFields
+checkMesh > checkMesh.log
+decomposePar
+mpirun -np 20 overWaveFoam -parallel
+reconstructPar
+#------------------------------------------------------------------------------

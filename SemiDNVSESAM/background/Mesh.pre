@@ -1,0 +1,17 @@
+#!/bin/sh
+blockMesh
+
+rm system/topoSetDict
+cp system/topoSetDict.seaLevel system/topoSetDict
+topoSet
+refineMesh -overwrite
+topoSet
+refineMesh -overwrite
+
+
+decomposePar
+mpirun -np 16 snappyHexMesh -overwrite -parallel
+reconstructParMesh -constant
+pkill snappyHexMesh
+rm -rf processor*
+#------------------------------------------------------------------------------

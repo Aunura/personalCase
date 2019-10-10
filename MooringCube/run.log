@@ -1,0 +1,91 @@
+Courant Number mean: 0.00160262126605 max: 1.98673137263
+Interface Courant Number mean: 9.38505529962e-05 max: 1.42822342963
+deltaT = 0.00671345506209
+Time = 1
+
+PIMPLE: iteration 1
+forces forces:
+    Not including porosity effects
+
+Restraint TestMooringW1: fairlead_ 
+(0.200509937221 0.20005278529 0.0251784011927)
+motion.acc()
+(-0.00819850000571 0.00088243152271 1.57193306024)
+motion.velocity(centreOfMass) is 
+(-0.000706969036738 0.00037258582779 0.00984602189268)
+Times of iterations needed to converge for TestMooringW1: 6
+restraintForce is ^^^^^^^^^^^^^^^^^^^^^^^^^^
+(-2.75926939245 -2.75848241167 -4.75448911338)
+Restraint TestMooringW2: fairlead_ 
+(0.200655605728 0.400052726996 0.0251325937178)
+motion.acc()
+(-0.254561838617 -0.245410640948 1.14742510369)
+motion.velocity(centreOfMass) is 
+(-0.000706969036738 0.00037258582779 0.00984602189268)
+Times of iterations needed to converge for TestMooringW2: 6
+restraintForce is ^^^^^^^^^^^^^^^^^^^^^^^^^^
+(-2.75289502036 2.76375420536 -4.7461050541)
+Restraint TestMooringW3: fairlead_ 
+(0.400655153617 0.399907150291 0.025532158229)
+motion.acc()
+(-0.500356036864 0.00135312738761 0.723665723857)
+motion.velocity(centreOfMass) is 
+(-0.000706969036738 0.00037258582779 0.00984602189268)
+Times of iterations needed to converge for TestMooringW3: 6
+restraintForce is ^^^^^^^^^^^^^^^^^^^^^^^^^^
+(2.76791763579 2.75680124842 -4.73747928495)
+Restraint TestMooringW4: fairlead_ 
+(0.40050948511 0.199907208585 0.0255779657039)
+motion.acc()
+(-0.253220533668 0.247496095996 0.300676501986)
+motion.velocity(centreOfMass) is 
+(-0.000706969036738 0.00037258582779 0.00984602189268)
+Times of iterations needed to converge for TestMooringW4: 6
+restraintForce is ^^^^^^^^^^^^^^^^^^^^^^^^^^
+(2.765047446 -2.76605264276 -4.73528233181)
+6-DoF rigid body motion
+    Centre of rotation: (0.300178114456 0.300028586893 0.225418493419)
+    Centre of mass: (0.300178114456 0.300028586893 0.225418493419)
+    Orientation: (0.999997648127 0.000702725073453 -0.00205180843789 -0.000702246775563 0.999999726088 0.000233821536135 0.00205197218813 -0.000232380110357 0.999997867703)
+    Linear velocity: (-0.000752759402138 0.000378357092148 0.00910639028692)
+    Angular velocity: (-0.000482390208296 -0.00778543570466 0.00377172822542)
+inverseDistance : detected 2 mesh regions
+    zone:0 nCells:416000  voxels:(37 37 37) bb:(-5.00000318787 0.449996812132 -0.500003187868) (-2.79999681213 1.60000318787 1.50000318787)
+    zone:1 nCells:17428  voxels:(37 37 37) bb:(-0.00105921740446 -0.000227533918148 -0.0249498083336) (0.600831403122 0.60033062306 0.77813385576)
+Overset analysis : nCells : 433428
+    calculated   : 429888
+    interpolated : 3216 (interpolated from local:0  mixed local/remote:0  remote:3216)
+    hole         : 324
+
+Updating StokesII wave model for patch inlet
+Updating shallowWaterAbsorption wave model for patch outlet
+Execution time for mesh.update() = 2.13 s
+smoothSolver:  Solving for alpha.water, Initial residual = 2.11386279661e-05, Final residual = 2.94318604161e-09, No Iterations 1
+Phase-1 volume fraction = 0.499493782756  Min(alpha.water) = -1.16806191609e-14  Max(alpha.water) = 1.00000191927
+MULES: Correcting alpha.water
+MULES: Correcting alpha.water
+Phase-1 volume fraction = 0.499493783202  Min(alpha.water) = -5.17113279274e-07  Max(alpha.water) = 1.0000019178
+DILUPBiCGStab:  Solving for p_rgh, Initial residual = 7.66373709216e-05, Final residual = 5.13777699458e-07, No Iterations 3
+time step continuity errors : sum local = 1.6948520756e-06, global = 2.27144936028e-07, cumulative = -2.15908668425e-05
+DILUPBiCGStab:  Solving for p_rgh, Initial residual = 1.38439636341e-06, Final residual = 6.20179106359e-10, No Iterations 38
+time step continuity errors : sum local = 2.13268686466e-09, global = 4.98635707483e-10, cumulative = -2.15903682068e-05
+smoothSolver:  Solving for epsilon, Initial residual = 0.000702532772082, Final residual = 3.91495163635e-10, No Iterations 4
+smoothSolver:  Solving for k, Initial residual = 0.000941988001255, Final residual = 1.10682989087e-09, No Iterations 4
+PIMPLE: iteration 2
+smoothSolver:  Solving for alpha.water, Initial residual = 1.02629603482e-05, Final residual = 1.82430513729e-09, No Iterations 1
+Phase-1 volume fraction = 0.499494213319  Min(alpha.water) = -1.16633210935e-14  Max(alpha.water) = 1.00000040441
+MULES: Correcting alpha.water
+MULES: Correcting alpha.water
+Phase-1 volume fraction = 0.499494213688  Min(alpha.water) = -7.11108572773e-07  Max(alpha.water) = 1.00000040422
+DILUPBiCGStab:  Solving for p_rgh, Initial residual = 5.16460605937e-06, Final residual = 4.52396774851e-08, No Iterations 19
+time step continuity errors : sum local = 1.58854738135e-07, global = -5.2381790859e-08, cumulative = -2.16427499977e-05
+DILUPBiCGStab:  Solving for p_rgh, Initial residual = 3.43964746743e-07, Final residual = 8.94485798744e-10, No Iterations 26
+time step continuity errors : sum local = 3.13008433473e-09, global = 4.69005271042e-10, cumulative = -2.16422809924e-05
+smoothSolver:  Solving for epsilon, Initial residual = 0.000191596194119, Final residual = 2.63993101302e-09, No Iterations 3
+smoothSolver:  Solving for k, Initial residual = 0.00015224004434, Final residual = 2.81895533288e-09, No Iterations 3
+ExecutionTime = 986.29 s  ClockTime = 2058 s
+
+End
+
+Finalising parallel run
+

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+mpirun -np 20 overWaveFoam -parallel | tee IHFCaseContinue.foam
+reconstructPar
+
+
+#------------------------------------------------------------------------------
