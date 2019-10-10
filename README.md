@@ -1,6 +1,6 @@
 # personalCase
 
-The case calculated by AnatoliaFoam
+These cases are calculated by AnatoliaFoam
 
 ※WaterFlume
 ![image](https://github.com/Aunura/personalCase/blob/master/Picture/waterFlume2D.png)
